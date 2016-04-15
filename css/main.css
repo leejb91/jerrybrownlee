@@ -1,14 +1,65 @@
-.navbar {
+html, body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+​
+body {
+  font: 1em/1.25, Helvetica, sans-serif;
+  width: 100%
+  height: 100%;
+}
+​
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+​
+p, th, td,
+li, dd, dt,
+ul, ol, blockquote,
+q, acronym, abbr, a,
+input, select, textarea {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+​
+div {
+  margin: 0px;
+}
+
+html {
+  background-color: ghostwhite;
+}
+
+.nav-wrapper {
+  background-color: #257499;
+}
+
+.project {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  align-self: center;
+  align-item: center;
 }
 
-ul.navbar {
-  list-style: none;
-  padding: 0;
+.each-div {
+  padding: 40px;
+
 }
 
-.navbar a {
-  text-decoration: none;
-  color: inherit;
+.div-color {
+  background-color: #dfdfe5;
+}
+
+.devicon-angularjs-plain,
+.devicon-css3-plain,
+.devicon-github-plain,
+.devicon-heroku-original,
+.devicon-html5-plain-wordmark,
+.devicon-bootstrap-plain {
+  font-size: 3rem;
 }
