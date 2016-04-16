@@ -6,93 +6,177 @@
   <title>Jerry Brown Lee</title>
 
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
 
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper">
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <!-- <li><a href="#resume">Resume</a></li> -->
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <!-- <li><a href="#resume">Resume</a></li> -->
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="opening-image">
+    <div class="name-div">
+      <span>J E R R Y</span>
+      <span>B R O W N</span>
+      <span>L E E</span>
+    </div>
   </div>
 
   <div id="about" class="each-div">
-    <p>Hi, my name is Jerry Brown Lee and I'm a web developer. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia deserunt illum veritatis! Voluptatibus, quisquam, eaque. Necessitatibus eum alias, in eligendi corporis inventore voluptatem, officiis voluptates incidunt praesentium debitis nostrum non.</p>
+    <h3>A B O U T M E</h3>
+    <!-- <p>My name is Jerry Brown Lee and I’m a Full Stack Web Developer. Before I began my journey as a web developer, I underwrote business and real estate loans at Wilshire Bank and sought to become a better underwriter through constant education of current underwriting practices. Also for the past 2 years, I volunteered for the Volunteer Income Tax Assistance (VITA) program, helping underprivileged families file tax returns to benefit from the tax refund. As a developer, I hope to bring the drive from my background in banking and passion from volunteer to my web developing career to produce creative and powerful apps that bring purpose to the community.</p> -->
+
+    <p>Hey, my name is Jerry Brown Lee and you might wonder why my middle name is Brown... I always tell the same story to everyone, and I'd love to tell you in person. Anyways, you're looking at my portfolio website probably because I'm looking for a job as a web developer. Below you can see a list of projects that I have completed/continuing to work on with my contact information all the way at the bottom. Cheers!</p>
+
+    <div class="skills">
+      <span class="skills-header"><h5>Skills: </h5></span>
+        <ul class="technologies-list">
+          <li><i class="devicon-javascript-plain"></i></li>
+          <li><i class="devicon-jquery-plain-wordmark"></i></li>
+          <li><i class="devicon-angularjs-plain"></i></li>
+          <li><i class="devicon-nodejs-plain"></i></li>
+          <li><i class="devicon-ruby-plain-wordmark"></i></li>
+          <li><i class="devicon-rails-plain-wordmark"></i></li>
+          <li><i class="devicon-mongodb-plain-wordmark"></i></li>
+          <li><i class="devicon-postgresql-plain-wordmark"></i></li>
+          <li><i class="devicon-html5-plain-wordmark"></i></li>
+          <li><i class="devicon-css3-plain-wordmark"></i></li>
+        </ul>
+    </div>
   </div>
 
-  <div id="projects">
-    <div id="project4" class="project div-color each-div">
-      <img src="assets/project4_ss.png" alt="" width="40%" height="40%">
+  <div id="projects" class="div-color each-div">
+    <h3>P R O J E C T S</h3>
+    <div id="project4" class="project each-div">
+      <div class="project-image">
+        <a href="https://gentle-fortress-79303.herokuapp.com/"><img src="assets/project4_ss.png" alt=""></a>
+      </div>
 
-      <div>
-        <a href="https://gentle-fortress-79303.herokuapp.com/">HONE</a>
-        <a href="https://github.com/leejb91/translate_app">Github</a>
+      <div class="project-info">
+        <h3><a href="https://gentle-fortress-79303.herokuapp.com/">HONE</a></h3>
+        <p>HONE crowd-sources the translations by allowing users to upload a post that they would like translated. Then other users who are experienced in that specified language can reply to the post with a refined paragraph. The application will support a community of multi-linguists where learning and language exchange is encouraged.</p>
+        <span>Links: <a href="https://github.com/leejb91/translate_app">GitHub</a> | <a href="https://gentle-fortress-79303.herokuapp.com/">HONE</a></span>
+        <p>Technologies:</p>
+        <ul class="technologies-list">
+          <li><i class="devicon-javascript-plain"></i></li>
+          <li><i class="devicon-mongodb-plain-wordmark"></i></li>
+          <li><i class="devicon-angularjs-plain"></i></li>
+          <li><i class="devicon-nodejs-plain"></i></li>
+          <li><i class="devicon-html5-plain-wordmark"></i></li>
+          <li><i class="devicon-css3-plain-wordmark"></i></li>
+        </ul>
       </div>
     </div>
 
-    <div id="project3" class="project each-div">
-      <div>
+<!--     <div id="project3" class="project each-div">
+      <div class="project-info">
+
+        <div class="project-image">
+        </div>
+
         <a href="https://ancient-oasis-48219.herokuapp.com/welcome">Propel!</a>
-        <a href="https://github.com/leejb91/propel_app">Github</a>
+        <a href="https://github.com/leejb91/propel_app">GitHub</a>
+        <p>Technologies:</p>
+        <ul class="technologies-list">
+          <li><i class="devicon-javascript-plain"></i></li>
+          <li><i class="devicon-mongodb-plain-wordmark"></i></li>
+          <li><i class="devicon-angularjs-plain"></i></li>
+          <li><i class="devicon-nodejs-plain"></i></li>
+          <li><i class="devicon-html5-plain-wordmark"></i></li>
+          <li><i class="devicon-css3-plain-wordmark"></i></li>
+        </ul>
       </div>
-    </div>
+    </div> -->
 
     <div id="project2" class="project div-color each-div">
-      <img src="https://camo.githubusercontent.com/15d0e7456b9fde8cfb4a3ab7b05cfb5f05e876b4/68747470733a2f2f692e696d6775722e636f6d2f45453263737a422e706e67" alt="" width="40%" height="40%">
+      <div class="project-image">
+        <a href="https://shrouded-ocean-86275.herokuapp.com/"><img src="https://camo.githubusercontent.com/15d0e7456b9fde8cfb4a3ab7b05cfb5f05e876b4/68747470733a2f2f692e696d6775722e636f6d2f45453263737a422e706e67" alt=""></a>
+      </div>
 
-      <div>
-        <a href="https://shrouded-ocean-86275.herokuapp.com/">X League</a>
-        <a href="https://github.com/leejb91/project2">Github</a>
+      <div class="project-info">
+        <h3><a href="https://shrouded-ocean-86275.herokuapp.com/">X League</a></h3>
+        <p>The current website simply portrays the stats per game; however, the web application will manipulate the data to have a more interactive experience so that users will be able to look up individual players and teams and find per game stats as well as season totals all in a single page. The ultimate goal will be to bring about another level of competition through statistics among the players.</p>
+        <span>Links: <a href="https://github.com/leejb91/project2/tree/master/x_league_app">GitHub</a> | <a href="https://shrouded-ocean-86275.herokuapp.com/">X League</a></span>
+        <p>Technologies:</p>
+        <ul class="technologies-list">
+          <li><i class="devicon-ruby-plain-wordmark"></i></li>
+          <li><i class="devicon-rails-plain-wordmark"></i></li>
+          <li><i class="devicon-postgresql-plain-wordmark"></i></li>
+          <li><i class="devicon-html5-plain-wordmark"></i></li>
+          <li><i class="devicon-css3-plain-wordmark"></i></li>
+        </ul>
       </div>
     </div>
 
     <div id="project1" class="project each-div">
-      <img src="https://camo.githubusercontent.com/1feaec20791910a39036b270a9009b3db3589d7b/68747470733a2f2f692e696d6775722e636f6d2f527439726c44572e6a7067" alt="" width="40%" height="40%">
+      <div class="project-image">
+        <a href="http://leejb91.github.io/project1/"><img src="https://camo.githubusercontent.com/1feaec20791910a39036b270a9009b3db3589d7b/68747470733a2f2f692e696d6775722e636f6d2f527439726c44572e6a7067" alt=""></a>
+      </div>
 
-      <div>
-        <a href="http://leejb91.github.io/project1/">Mancala</a>
-        <a href="https://github.com/leejb91/project1">Github</a>
+      <div class="project-info">
+        <h3><a href="http://leejb91.github.io/project1/">Mancala</a></h3>
+        <p>Mancala is a 2-player board game that I loved to play as a child and I decided to create a web version of the game with basic HTML, CSS and JavaScript.</p>
+        <span>Links: <a href="https://github.com/leejb91/project1">GitHub</a> | <a href="http://leejb91.github.io/project1/">Mancala</a></span>
+        <p>Technologies:</p>
+        <ul class="technologies-list">
+          <li><i class="devicon-javascript-plain"></i></li>
+          <li><i class="devicon-jquery-plain-wordmark"></i></li>
+          <li><i class="devicon-html5-plain-wordmark"></i></li>
+          <li><i class="devicon-css3-plain-wordmark"></i></li>
+        </ul>
       </div>
     </div>
 
   </div>
 
-  <div id="resume" class="div-color each-div">
+<!--   <div id="resume" class="each-div">
+    <h3>R E S U M E</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur rem consectetur neque vero. Nihil aliquam, iure repellat facilis eos suscipit cupiditate consequatur minima eum, amet esse rerum, animi dignissimos eius.</p>
   </div>
 
+  <a class="modal-trigger waves-effect waves-light" href="#resume-modal">Modal</a>
+
+  <div id="resume-modal" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+    </div>
+  </div>
+ -->
   <div id="contact" class="each-div">
+    <h3>C O N T A C T</h3>
     <ul>
       <li>Jerry Brown Lee</li>
       <li>leejb91@gmail.com</li>
-      <li>www.jerrybrownlee.com</li>
-      <li>Linked In</li>
-      <li>Github</li>
-      <li>Instagram</li>
+      <li class="links"><a href="https://www.linkedin.com/in/jerrybrownlee"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+      <li class="links"><a href="https://github.com/leejb91"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+      <li class="links"><a href="https://www.instagram.com/jerrencelee/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
     </ul>
-    <i class="devicon-angularjs-plain"></i>
-    <i class="devicon-css3-plain"></i>
-    <i class="devicon-github-plain"></i>
-    <i class="devicon-heroku-original"></i>
-    <i class="devicon-html5-plain-wordmark"></i>
-    <i class="devicon-bootstrap-plain"></i>
-
-
-
-
 
   </div>
 
-  <script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
   <script src="js/main.js"></script>
 

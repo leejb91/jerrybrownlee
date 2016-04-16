@@ -6,7 +6,7 @@ html, body {
 ​
 body {
   font: 1em/1.25, Helvetica, sans-serif;
-  width: 100%
+  width: 100%;
   height: 100%;
 }
 ​
@@ -35,7 +35,25 @@ html {
 }
 
 .nav-wrapper {
-  background-color: #257499;
+  background-color: black;
+}
+
+div h3 {
+  text-align: center;
+}
+
+#about {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.skills {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.skills-header {
+  padding: 10px;
 }
 
 .project {
@@ -44,22 +62,85 @@ html {
   flex-wrap: wrap;
   align-self: center;
   align-item: center;
+  /*margin: 40px;*/
+}
+
+.project-image {
+  width: 500px;
+  margin-top: 25px;
+}
+
+.project-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.project-info {
+  padding: 20px;
+  width: 400px;
+}
+
+.technologies-list li {
+  display: inline;
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact ul {
+  padding: 20px;
+}
+
+#contact a {
+  color: inherit;
+}
+
+.links {
+  display: inline;
 }
 
 .each-div {
   padding: 40px;
-
 }
 
 .div-color {
-  background-color: #dfdfe5;
+  background-color: #efeff2;
+}
+
+.opening-image {
+  background-image: url("https://wallpaperscraft.com/image/los_angeles_view_top_view_night_city_93240_1920x1080.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  /*position: relative;*/
+}
+
+.name-div {
+  padding: 20px;
+  color: white;
+  margin-right: 50px;
+  text-align: right;
+}
+
+.name-div span {
+  display: block;
+  font-size: 300%
 }
 
 .devicon-angularjs-plain,
-.devicon-css3-plain,
+.devicon-css3-plain-wordmark,
 .devicon-github-plain,
-.devicon-heroku-original,
+.devicon-heroku-original-wordmark,
 .devicon-html5-plain-wordmark,
-.devicon-bootstrap-plain {
+.devicon-bootstrap-plain,
+.devicon-javascript-plain,
+.devicon-jquery-plain-wordmark,
+.devicon-mongodb-plain-wordmark,
+.devicon-nodejs-plain,
+.devicon-postgresql-plain-wordmark,
+.devicon-ruby-plain-wordmark,
+.devicon-rails-plain-wordmark,
+.fa {
   font-size: 3rem;
 }
